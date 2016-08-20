@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Fibonnacci Sequence Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="http://peterolson.github.com/BigInteger.js/BigInteger.min.js"></script>
+    <link rel="stylesheet" href="myCSS.css">
+    <script src="myJs.js"></script>
+
+</head>
+
+<body>
+    <div class="container-fluid  text-center">
+        <div class="jumbotron">
+            <h1> Fibonacci Sequence Calculator </h1>
+        </div>
+        <p> This website will get the <strong>n<sup>th</sup> </strong> number to the fibonacci sequence using dynamic programming.
+            <br>
+            <br> Note: n must be greater then 2.
+        </p>
+
+
+        <form id="frm1">
+            <label for="formGroupExampleInput">n =</label>
+            <input type="text" name="nth" style="color:black;">
+            <button type="submit"> Solve </button>
+        </form>
+
+        <p id="demo" class="contianer-fluid "> </p>
+
+        <p> If your are unfamiliar with the fibonacci sequence, check out <a href="http://www.livescience.com/37470-fibonacci-sequence.html" target="_blank"> this website.</a> It uses <a href="https://github.com/peterolson/BigInteger.js">BigInteger.js library </a> to be accurate at large numbers.
+        </p>
+    </div>
+
+</body>
+
+
+</html>
