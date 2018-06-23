@@ -8,5 +8,5 @@ Web App for finding the nth number of the fibonacci sequence using dynamic progr
 
 ## Authors
 * Luis Hernandez Cruz - [lhernandezcruz](https://github.com/lhernandezcruz)
-* 
+
 
