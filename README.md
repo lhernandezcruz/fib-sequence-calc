@@ -1,7 +1,12 @@
 # fib-sequence-calc
 
 Web App for finding the nth number of the fibonacci sequence using dynamic programming.
+[Try Now](http://lhernandezcruz.github.io/fib-sequence-calc)
 
-# link
-http://lhernandezcruz.github.io/fib-sequence-calc
+## Built With
+* [bigInteger](https://github.com/peterolson/BigInteger.js/) - Used to calculate with precision.
+
+## Authors
+* Luis Hernandez Cruz - [lhernandezcruz](https://github.com/lhernandezcruz)
+* 
 
